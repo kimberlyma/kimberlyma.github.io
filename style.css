@@ -29,7 +29,7 @@ html, body {
   
 }
 
-.container .resume {
+.container {
   width: 70%;
   background: white;
   padding: 10px 40px 10px 40px;
@@ -47,6 +47,10 @@ html, body {
   text-align: center;
 }
 
+.contact {
+  background: #F7F7F7;
+  margin-top: 0px;
+}
 
 
 h1 {
