@@ -1,16 +1,14 @@
 html, body {
   height: 100%;
-  backgrounad: #F7F7F7;
+  background: #F7F7F7;
   font: georgia;
   color: #3F3F3F;
 }
 
 .container-fluid {
-  #height: 100%;
-   #min-height: 100%;
   padding: 5%;
   background-color: #F0C808;
-color: black;
+  color: black;
   
 }
 .container-fluid h1 {
@@ -23,6 +21,32 @@ color: black;
 .container strong {
   color: black;
 }
+
+.social-links {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container {
+  width: 70%;
+  background: white;
+  padding: 10px 40px 10px 40px;
+  margin-bottom: 10%;
+  margin-top: 5%;
+
+}
+
+.im-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.subsection-title {
+  text-align: center;
+}
+
 
 
 h1 {
@@ -43,26 +67,8 @@ h5 {
 }
 
 hr.style12 {
-	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
-    border: 0;
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+  border: 0;
   width: 50%;
-}
-.container {
-  width: 70%;
-  background: white;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: 10%;
-  margin-top: 5%;
-
-}
-
-.im-centered {
-  float: none;
-  margin: 0 auto;
-}
-
-.subsection-title {
-  text-align: center;
 }
