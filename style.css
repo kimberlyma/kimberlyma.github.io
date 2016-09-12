@@ -38,16 +38,9 @@ html, body {
 
 }
 
-.im-centered {
-  float: none;
-  margin: 0 auto;
-}
-
 .subsection-title {
   text-align: center;
 }
-
-
 
 h1 {
   font-family: 'Abril Fatface', san-serif;
