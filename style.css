@@ -58,7 +58,6 @@ a:active, a:hover {
 }
 
 #content {
-  max-width: 80%;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 5%;
 }
@@ -90,12 +89,10 @@ a:active, a:hover {
 }
 
 .samples img {
-  width: 80%;
-  border-radius: 50%;
 }
 
 #test{
-  background-color: #ede8ee;
+  background-color: #fff;
   padding-top: 5%;
   padding-bottom: 5%;
   margin-bottom: 10%;
@@ -103,10 +100,11 @@ a:active, a:hover {
 
 .writeup {
   padding-top: 2%;
-  min-width: 55%;
 }
 
 #contact{
-  padding-bottom: 2%;
+  min-width: 100%;
+  padding-bottom: 0;
+  background-color: #e9e9e9;
 }
 
