@@ -6,15 +6,6 @@ body {
   padding-top: 70px; 
   }
 
-
-@media (max-width: @screen-xs) {
-    body{font-size: 25px;}
-}
-
-@media (max-width: @screen-sm) {
-    body{font-size: 25px;}
-}
-
 h2,h3,h4{
   display: inline;
   padding-right: 5%;
@@ -39,8 +30,8 @@ a:active, a:hover {
 }
 
 #about img{
-   opacity: 0.8;
-   filter: alpha(opacity=50);
+   opacity: 0.7;
+   filter: alpha(opacity=70);
 }
 .navbar {
   background:rgba(255,255,255,0.5);
@@ -68,9 +59,8 @@ a:active, a:hover {
 
 #content {
   max-width: 80%;
-font-family: 'Roboto', sans-serif;
-padding-bottom: 5%;
-
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 5%;
 }
 
 #img-holder{
@@ -85,11 +75,12 @@ padding-bottom: 5%;
 
 #desc {
   padding-top: 5%;
+  padding-bottom: 5%;
   text-align: left;
   font-size: 140%;
 }
 
-.skills h3, #desc strong{
+.skills h3, #desc strong {
   color: #846f83;
 }
 
@@ -109,6 +100,7 @@ padding-bottom: 5%;
   padding-bottom: 5%;
   margin-bottom: 10%;
 }
+
 .writeup {
   padding-top: 2%;
   min-width: 55%;
