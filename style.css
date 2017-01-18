@@ -1,16 +1,3 @@
-
-@include media-breakpoint-up(sm) {
-  html,body {
-    font-size: 16px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html,body {
-    font-size: 20px;
-  }
-}
-
 body { padding-top: 70px; }
 
 
@@ -39,7 +26,7 @@ a:active, a:hover {
 
 #about img{
    opacity: 0.8;
-    filter: alpha(opacity=50);
+   filter: alpha(opacity=50);
 }
 .navbar {
   background:rgba(255,255,255,0.5);
@@ -56,7 +43,7 @@ a:active, a:hover {
   margin-left: 5%;
   padding-right: 5%;
   font-size: 260%;
-font-family: 'Raleway', sans-serif;
+ font-family: 'Raleway', sans-serif;
 }
 
 #bg {
@@ -77,6 +64,7 @@ padding-bottom: 5%;
 }
 
 #about {
+  padding-top: 5%;
   margin-bottom: 5%;
   min-height: 100%;
 }
@@ -85,6 +73,10 @@ padding-bottom: 5%;
   padding-top: 5%;
   text-align: left;
   font-size: 140%;
+}
+
+.skills h3, #desc strong{
+  color: #846f83;
 }
 
 .samples{
@@ -101,21 +93,14 @@ padding-bottom: 5%;
   background-color: #ede8ee;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .writeup {
   padding-top: 2%;
-  width: 55%;
+  min-width: 55%;
 }
 
 #contact{
-  min-height: 50%;
+  padding-bottom: 2%;
 }
 
-.center-block{
-    display: inline;
-
-}
-.footer {
-  text-align: center;
-}
