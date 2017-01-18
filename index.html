@@ -2,7 +2,7 @@
   <title> Kimberly Mahoney's Resume </title>
   
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
   <!-- Custom CSS -->
   <link type="text/css" rel="stylesheet" href="style.css" />
 
@@ -10,39 +10,62 @@
   <!-- Import Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:400,700" rel="stylesheet">
 
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="script.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:400,700" rel="stylesheet">
 </head>
 <body>
- <link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:400,700" rel="stylesheet">
-
-<nav class="navbar navbar-inverse navbar-fixed-top ">
-  <a href="#samples">Section 1</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class = "container">
+  <a href="#about">about</a>
+  <a href="#first-project">   projects</a>
+  <a href="#contact">   contact</a>
+  </div>
 </nav>
+
 <div class ="container-fluid" id = "bg">
   <div class ="container-fluid" id = "intro">
-    Hello. My name is <b>Kimberly Mahoney.</b><p>I like to ____</p><ul><li>create</li>
+    Hello. My name is <b>Kimberly Mahoney.</b><p>I like to ____</p><ul><li>build</li>
   <li> analyze </li>
+  <li> visualize </li>
   </ul>
   </div>
 </div>
   <div class = "container-fluid" id = "content">
     <div class = "row" id = "about">
-      <div class = "col-xs-6 col-md-4" id = "img-holder"><img src = "http://placehold.it/300" class = "img-responsive"></div>
-      <div class = "col-xs-12 col-md-8" id = "desc">////</div>
+      <div class = "col-xs-6 col-md-4" id = "img-holder"><img src = "images/IMG_2002.jpg" class = "img-responsive"></div>
+      <div class = "col-xs-12 col-md-8" id = "desc"><p>I'm a recent graduate of <strong>University California, Berkeley</strong> where I studied <strong>Cognitive Science</strong>. My concentration was in Computational Modeling and Cogniive Psychology. My favorite courses were Databases, Cognitive Neuroscience, Perception, and Computational Models of Cognition.</p>
+          <div class="row">
+          <div class = "col-md-12 skills"> <h3>Tech:</h3> Python, R, SQL, Java, Javascript, HTML, CSS </br> <h3>Research: </h3>A/B Testing, survey design, interviews/focus groups</div>
+          </div>
+      </div>
     </div>
-    <div class = "row samples">
-      <h1>Projects</h1>
+      <h1 id = "first-project">Featured Projects</h1>
+    <div id = "test">
+    <div class = "row samples" id = "first-project">
             <div class = "col-xs-6 col-md-4"><img src = "images/MLMap.png"></div>
-      <div class = "col-xs-12 col-md-8 writeup"><h2>2016 Presidential Election Project</h2> <i>R</i><p/>I completed this project within a team of five people for my Stat 133 - Computing with Data class. It's a data analysis and machine learning project which focused on cleaning and analyzing data from the past four elections and predicting the 2016 election results using voting trends and census data. We made several graphs using ggplot and also built a Naive Bayes classifier and a classification tree.</div>
+      <div class = "col-xs-12 col-md-8 writeup"><h3>2016 Presidential Election Project</h3> <i>R</i></p>I completed this project within a team of five people for my Stat 133 - Computing with Data class. It's a data analysis and machine learning project which focused on cleaning and analyzing data from the past four elections and predicting the 2016 election results using voting trends and census data. We made several graphs using ggplot and also built a Naive Bayes classifier and a classification tree.</div>
     </div>
         <div class = "row samples"><br/>
             <div class = "col-xs-6 col-md-4"><img src = "images/weatherapp.png" class = "img-responsive"></div>
-      <div class = "col-xs-12 col-md-8 writeup"><h2>Your Local Weather App</h2><p>A weather web app that shows you your local weather using OpenWeatherMap’s API. I completed this project while I was going through FreeCodeCamp's curriculum. It allowed me to become more familiar with handling asychronous 3rd party data. </p></div>
+      <div class = "col-xs-12 col-md-8 writeup"><h3>Your Local Weather App</h3> <i>CSS, HTML, Javascript</i><p>A weather web app that shows you your local weather using OpenWeatherMap’s API. I completed this project while I was going through FreeCodeCamp's curriculum. It allowed me to become more familiar with handling asychronous 3rd party data. <p></p></div>
     </div>
     <div class = "row samples"><br/>
-            <div class = "col-xs-6 col-md-4"><img src = "images/quotegen.png" class = "img-responsive"></div>
-      <div class = "col-xs-12 col-md-8 writeup"><h2>Random Quote Generator</h2><p></p></div>
+            <div class = "col-xs-6 col-md-4"><img src = "images/678113-database-256.png" class = "img-responsive"></div>
+      <div class = "col-xs-12 col-md-8 writeup"><h3>Database</h3> <i>Java</i><p>Implementation of a database involving concurrency control, B+ Trees and file management, and query optimization. Developed in CS 186 - Database Management Systems.</p></div>
     </div>
-</div>    
+        <div class = "row samples"><br/>
+            <div class = "col-xs-6 col-md-4"><img src = "images/quotegen.png" class = "img-responsive"></div>
+      <div class = "col-xs-12 col-md-8 writeup"><h3>Random Quote Generator</h3> <i>CSS, HTML, Javascript</i><p></p></div>
+    </div>
+    </div>
+        <div class = "row" id = "contact">
+      <div class = "col-md-12" align = "center"><img class = "center-block" src = "images/linkedin.png"> <img class = "center-block" src = "images/gmail.png"</div>
+    </div>
+</div>   
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">name - email</p>
+      </div>
+    </footer> 
 </body>
