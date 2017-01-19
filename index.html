@@ -11,7 +11,7 @@
 
 
   <!-- Import Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Roboto:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,700|Source+Sans+Pro:400,400i,700" rel="stylesheet">
 
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="script.js"></script>
@@ -24,7 +24,7 @@
   <a href="#about">about</a>
   <a href="#first-project">   projects</a>
   <a href="#contact">   contact</a>
-    <a href="#">   resume</a>
+    <a href="kimma.pdf" target="_blank">   resume</a>
 
   </div>
 </nav>
@@ -39,37 +39,52 @@
 </div>
   <div class = "container-fluid" id = "content">
     <div class = "row" id = "about">
-      <div class = "col-md-4" id = "img-holder"><img src = "images/IMG_2002.jpg" id = "self"></div>
-      <div class = "col-md-8" id = "desc"><p>I'm a recent graduate of <strong>University California, Berkeley</strong> where I studied <strong>Cognitive Science</strong>. My concentration was in Computational Modeling and Cogniive Psychology. My favorite courses were Databases, Cognitive Neuroscience, Perception, and Computational Models of Cognition. I’m always looking to learn from experts and work on new and exciting projects. I also love answering questions about Cognitive Science or Data Science at Cal!</p>
+      <div class = "col-md-5" id = "img-holder"><img class = "img-responsive" src = "images/IMG_2002.jpg" id = "self"></div>
+      <div class = "col-md-6" id = "desc"><p>I'm a recent graduate of <strong>University California, Berkeley</strong> where I studied <strong>Cognitive Science</strong>. My concentration was in Computational Modeling and Cogniive Psychology. My favorite courses were Databases, Cognitive Neuroscience, Perception, and Computational Models of Cognition. I’m always looking to learn from experts and work on new and exciting projects. I also love answering questions about Cognitive Science or Data Science at Cal!</p>
           <div class="row">
           <div class = "col-md-12 skills"> <h3><b>Tech:</b></h3> Python, R, SQL, Java, Javascript, HTML, CSS</br> <h3><b>Research: </b></h3>A/B Testing, survey design, interviews/focus groups</div>
           </div>
       </div>
     </div>
     <div id = "test">
-      <h1 id = "first-project">Featured Projects</h1>
+      <h1 id = "first-project"></h1>
       <div class = "row samples" id = "first-project">
-        <div class = "col-md-4 writeup"><h3>2016 Presidential Election Project</h3></br> <i>R</i></p>I completed this project within a team of five people for my Stat 133 - Computing with Data class. It's a data analysis and machine learning project which focused on cleaning and analyzing data from the past four elections and predicting the 2016 election results using voting trends and census data. We made several graphs using ggplot and also built a Naive Bayes classifier and a classification tree.</div>
+        <div class = "col-md-4 writeup"><h3>2016 Presidential Election Project</h3></br> <i>R</i><hr/><p>I completed this project within a team of five people for my Stat 133 - Computing with Data class. It's a data analysis and machine learning project which focused on cleaning and analyzing data from the past four elections and predicting the 2016 election results using voting trends and census data. We made several graphs using ggplot and also built a Naive Bayes classifier and a classification tree.</p></div>
          <div class = "col-md-8"><img src = "images/MLMap.png" class = "img-responsive"></div>
       </div>
           <div class = "row samples"><br/>
-        <div class = "col-md-4 writeup"><h3>Your Local Weather App</h3> </br><i>CSS, HTML, Javascript</i><p>A weather web app that shows you your local weather using OpenWeatherMap’s API. I completed this project while I was going through FreeCodeCamp's curriculum. It allowed me to become more familiar with handling asychronous 3rd party data. <p></p></div><div class = "col-md-8"><img src = "images/weatherapp.png" class = "img-responsive"></div>
+        <div class = "col-md-4 writeup"><h3>Your Local Weather App</h3> </br><i>CSS, HTML, Javascript</i><hr/><p>A weather web app that shows you your local weather using OpenWeatherMap’s API. I completed this project while I was going through FreeCodeCamp's curriculum. It allowed me to become more familiar with handling asychronous 3rd party data.</p></div><div class = "col-md-8"><img src = "images/weatherapp.png" class = "img-responsive"></div>
 
       </div>
       <div class = "row samples"><br/>
-        <div class = "col-md-4 writeup"><h3>Database</h3> </br> <i>Java</i><br><p>Implementation of a database involving concurrency control, B+ Trees and file management, and query optimization. Developed in CS 186 - Database Management Systems.</p></div>
+        <div class = "col-md-4 writeup"><h3>Database</h3> </br> <i>Java</i><br><hr/><p>Implementation of a database involving concurrency control, B+ Trees and file management, and query optimization. Developed in CS 186 - Database Management Systems.</p></div>
                       <div class = "col-md-8" ><img src = "images/database.png" class = "img-responsive"></div>
 
       </div>
           <div class = "row samples"><br/>
-        <div class = "col-md-4 writeup"><h3>Random Quote Generator</h3> </br> <i>CSS, HTML, Javascript</i><p></p></div>
+        <div class = "col-md-4 writeup"><h3>Random Quote Generator</h3> </br><i>CSS, HTML, Javascript</i><hr/><p></p></div>
                       <div class = "col-md-8"><img src = "images/quotegen.png" class = "img-responsive"></div>
 
       </div>
       </div>
 </div>   
 <div class="navbar-static-bottom" id="contact">
-  <!-- Icons by Neil Hainsworth -->
-        <div class = "container" align = "center"> <img src = "images/linkedin.png"> <img src = "images/gmail.png"></div>
-      </div>
+  <div class = "container">
+  <div class = "row">
+  <div class = "col-md-4">
+    <b>Hey there, </b> <ul><li>Feel free to shoot me an email or connect with me on social media. Currently looking to learn from experienced professionals in industry and help out students in the Bay Area.</li></ul> 
+</div>
+  <div class = "col-md-4">
+    <b>Connect</b> <ul><li><a href ="https://www.linkedin.com/in/mahoneykimberly
+" target="_blank" alt = "linkedin">mahoneykimberly @ LinkedIn </a></li></ul> 
+</div>
+  <div class = "col-md-4">
+    <b>Contact</b> 
+    <ul>
+      <li><a href ="mailto:kimberlymahoney@berkeley.edu" target="_top">kimberlymahoney@berkeley.edu</a></li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</div>
 </body>

@@ -14,7 +14,7 @@ $(document).ready(function(){
   $("#intro li").css("display","none"); //hide
   $("#intro li").each(function (i){
         var me = $(this);
-        setTimeout(function(){ $(me).fadeIn(1500); }, (1500 * i));
+        setTimeout(function(){ $(me).fadeIn(1000); }, (1000 * i));
      });
   });
 
